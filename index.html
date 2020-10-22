@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Змейка</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="display-flex center-txt">
+        <div class="nick-settings">
+            <div>
+                <div class="block-header padding-top-bottom"><p class="main-text-size">Добро пожаловать!</p></div>
+                <div class="padding-top-bottom block-content">
+                    <label class="title-2 main-text-size" for="left-txt-edit">Ваше имя</label> <br>
+                    <input class="nickname-edit" type="text" id="left-txt-edit">
+                </div>
+            </div>
+            <div>
+                <div class="block-header padding-top-bottom"><p class="main-text-size">Настройки</p></div>
+                <div class="block-content padding-bottom">
+                    <p class="title-2 main-text-size">Поле</p> <br>
+                    <label class="main-text-size" for="cell-size">Размер ячейки</label> <br>
+                    <input type="range" id="cell-size"> <br>
+    
+                    <label class="main-text-size" for="cells-count">Длина стороны поля</label> <br>
+                    <input type="range" id="cells-count"> <br>
+                    <p class="title-2 main-text-size">Игра</p> <br>
+                    
+                    <label class="main-text-size" for="borders">Столкновение с границами</label>
+                    <input type="checkbox" id="borders"> <br>
+    
+                    <label class="main-text-size" for="draw-frequency">Частота отрисовки</label> <br>
+                    <input type="range" id="draw-frequency"> <br>
+                    
+                    <div class="radio-list left-txt display-flex flex-column">    
+                        <div>
+                            <input type="radio" name="products" id="products-after">
+                            <label class="main-text-size" for="products-after">Появление кормёжки после сбора</label> <br>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="products" id="products-interval">
+                            <label class="main-text-size" for="products-interval">Появление кормёжки с интервалом</label> <br>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-records">
+            <div class="block-header padding-top-bottom"><p class="main-text-size">Рекорды</p></div>
+            <div class="full-height display-flex content-space-between padding-left block-content">
+                <div>
+                    <ol class="main-text-size user-select">
+                        <li class="left-txt nickname">SunflameSonSinMami</li>
+                        <li class="left-txt nickname">Electro</li>
+                        <li class="left-txt nickname">StrickenMaple05</li>
+                    </ol>
+                </div>
+
+                <div class="points-column flex-column main-text-size user-select">
+                    <p class="points">10000</p>
+                    <p class="points">9000</p>
+                    <p class="points">8700</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="main.html"><div class="start-button no-user-select center-txt padding-top-bottom">Начать</div></a>
+</body>
+</html>

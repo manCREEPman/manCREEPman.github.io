@@ -1,0 +1,142 @@
+/* Сокращения и тэги*/
+
+.left-txt {
+	text-align: left;
+}
+
+.center-txt {
+	text-align: center;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.content-space-between {
+	justify-content: space-between;
+}
+
+.padding-left {
+	padding-left: 20px;
+}
+
+.padding-top-bottom {
+	padding: 15px 0;
+}
+
+.padding-bottom {
+	padding-bottom: 20px;
+}
+
+.full-height {
+	height: calc(100% - 52px);
+}
+
+.main-text-size {
+	font-size: 14pt;
+}
+
+.main-text-size,
+br,
+.no-user-select {
+	user-select: none;
+}
+
+.user-select {
+	user-select: text;
+}
+
+/* Селекторы крупных блоков */
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.nick-settings {
+	min-width: 350px;
+	flex-grow: 4;
+}
+
+.radio-list {
+	margin: 0 calc((100% - 350px) / 2);
+}
+
+.block-records {
+	min-width: 276px;
+	border-left: #000000 solid 1px;
+	flex-grow: 2;
+	user-select: auto;
+}
+
+.points-column {
+	padding-right: 10px;
+}
+
+.nickname-edit {
+	width: 50%;
+	height: 25px;
+}
+
+/* Стилизация */
+
+.nickname::marker {
+	font-style: normal;
+	color: #000000;
+}
+
+.nickname {
+	font-style: italic;
+	color: #2facc2;
+}
+
+.points {
+	font-weight: bold;
+}
+
+.block-header {
+	background-color: #ee822a;
+}
+
+.title-2 {
+	padding-top: 15px;
+	color: #2b2626;
+	text-decoration: underline;
+}
+
+.block-content {
+	background-color: #7fffd4;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.start-button {
+	width: 300px;
+	height: 70px;
+	margin: 30px calc((100% - 300px) / 2);
+	justify-content: center;
+	background-color: #a52a2a;
+	border: black solid 2px;
+	font-size: 24pt;
+}
+
+.start-button:hover {
+	text-decoration: underline;
+	background-color: #c26161;
+	cursor: pointer;
+}
