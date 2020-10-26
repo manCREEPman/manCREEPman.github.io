@@ -140,3 +140,30 @@ a {
 	background-color: #c26161;
 	cursor: pointer;
 }
+
+datalist {
+	display: inline-block;
+}
+
+option {
+	display: inline-block;
+	font-size: 10pt;
+}
+
+.cell-options {
+	margin: 0 10px;
+}
+
+.cell-options-2 {
+	margin: 0 20px;
+}
+
+.cell-options-3 {
+	margin: 0 25px;
+}
+
+/* Логика */
+
+.spawn-rate-block{
+	visibility: hidden;
+}
