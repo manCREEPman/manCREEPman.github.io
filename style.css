@@ -164,6 +164,6 @@ option {
 
 /* Логика */
 
-.spawn-rate-block{
-	visibility: hidden;
+.spawn-rate-block {
+	visibility: var(--spawn-rate-visibility);
 }
