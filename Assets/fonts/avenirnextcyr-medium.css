@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "AvenirNextCyr-Medium";
+	src: url("./avenirnextcyr-medium.eot"); /* IE 9 Compatibility Mode */
+	src: url("./avenirnextcyr-medium.eot?#iefix") format("embedded-opentype"),
+		/* IE < 9 */ url("./avenirnextcyr-medium.woff2") format("woff2"),
+		/* Super Modern Browsers */ url("./avenirnextcyr-medium.woff") format("woff"),
+		/* Firefox >= 3.6, any other modern browser */ url("./avenirnextcyr-medium.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */ url("./Assets/fonts/avenirnextcyr-medium.svg#avenirnextcyr-medium")
+			format("svg"); /* Chrome < 4, Legacy iOS */
+}

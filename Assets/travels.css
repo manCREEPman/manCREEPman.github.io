@@ -1,0 +1,186 @@
+@import "./fonts/avenirnextcyr-medium.css";
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: "AvenirNextCyr-Medium";
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.round-rect {
+	border-radius: 10px;
+}
+
+.content-text {
+	font-size: 12pt;
+	color: #0000007a;
+}
+
+.title-text {
+	color: #000000;
+	padding-right: 10px;
+}
+
+.section-color {
+	background-color: #ffffff;
+}
+
+.content-blocks {
+	vertical-align: top;
+	height: 100%;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.nonsigned-list {
+	list-style-type: none;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.nav-bar {
+	width: 300px;
+}
+
+.nav-bar-main-title-paddings {
+	padding-left: 35px;
+}
+
+.sections-margins {
+	margin: 20px 45px 0 45px;
+}
+
+.nav-bar-main-cell {
+	padding: 25px 0 30px 0;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+#travels {
+	background-color: #eec946;
+}
+
+.nav-bar-section-cell:hover {
+	background-color: #f8d559;
+}
+
+.nav-bar-section-cell {
+	margin: 5px 15px;
+	padding: 15px calc(100% - (200px + 10px + 10px + 15px)) 15px 15px;
+}
+
+.preview-travel-section-cell {
+	margin: 5px 15px;
+	padding: 25px calc((100% - 200px) / 2);
+}
+
+.logo {
+	margin: 0 calc((100% - 248px) / 2);
+	position: absolute;
+	bottom: 20px;
+}
+
+.travels-main-container {
+	width: calc(100% - 300px);
+	background-color: #f4f4f4;
+}
+
+.search-box {
+	width: 1289px;
+}
+
+.search-box-text-middle-vertical-align {
+	margin: 15px 0;
+}
+
+.search-box-text-paddings {
+	padding: 0 1080px 0 64px;
+}
+
+.search-icon {
+	position: absolute;
+	top: 13px;
+}
+
+.search-and-travels-padding {
+	padding-left: 20px;
+}
+
+.search-text-and-ico-block {
+	height: 30px;
+	padding: 5px 0;
+	border-right: 1px solid #f1f1f1;
+}
+
+.travels-section {
+	width: 350px;
+}
+
+.travel-id-price-padding {
+	padding-right: 200px;
+}
+
+.travel-title-content-top-padding {
+	padding-top: 15px;
+}
+
+.travels-top-border {
+	border-top: 1px solid #f1f1f1;
+}
+
+.travels-title-padding-bottom {
+	padding-bottom: 15px;
+}
+
+.travels-section-arrow {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+
+#last-travel {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.travel-preview-box {
+	width: 450px;
+	height: 62%;
+	margin-left: 0;
+	vertical-align: top;
+}
+
+.travel-preview-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.options-preview-background-color1 {
+	background-color: #f8d559;
+}
+
+.options-preview-background-color2 {
+	background-color: #eec946;
+}
+
+.options-preview-background-color3 {
+	border: 2px solid #a0a0a0;
+}
